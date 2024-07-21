@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar contents */
+
+.logoContent img {
+  height: 20px;
+  width: 20px;
+
+}
+
+li {
+  display: inline;
+  padding:10px;
+  transition-property:text-decoration,text-underline-offset;
+  transition-duration : 2s;
+}
+li:hover{
+    text-decoration:underline;
+    text-underline-offset : 5px;
+}
+.signinButton:hover
+{
+  text-decoration:underline;
+  text-underline-offset :  5px;
+
+}
+.trailButton{
+  margin-right:30px;
+  min-width:144px;  
+}
+
+.header-wrapper
+{
+  min-height : 70px;
+}
+
+
+/* Hero Content */
+
+.heroContent
+{
+  min-height: 170px;
+}
+.heroContentWrapper
+{
+  height:90vh
+}
+.heroContent h3
+{
+  width:600px;
+  margin-bottom:20px;
+  letter-spacing:.2px;
+}
+ 
+
+.loginButton{
+  margin-bottom:10px;
+}
+.loginButton:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.imageContent{
+  background-color:#232323;
+  
+}
+
+.heroImage
+{
+  height: 300px;
+  width:500px;
+  background-image: url("https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg");
+  /* background-repeat:no-repeat; */
+  background-size:cover;
+  position:relative;
+}
+
+.playVideo{
+  position:absolute;
+  left:200px;
+  top:150px;
+  cursor:pointer;
+}
